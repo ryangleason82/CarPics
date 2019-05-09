@@ -19,7 +19,7 @@ Another project from the "Modern React with Redux" course on Udemy. This project
 
 - What is 'this' used for in a class?
   - Give me an instance of the class I'm working in
-- How is the valie of 'this' determined in a function?
+- How is the value of 'this' determined in a function?
 - Rewatch lecture 84 if confused
 - 3 Ways to Solve it
 - Bind in the constructor
@@ -28,10 +28,26 @@ Another project from the "Modern React with Redux" course on Udemy. This project
 - Inline the callback
   - Arrow function in the onSubmit={event => this.onFormSubmit(event)}
 
+### Unsplash API
+
+- Create requests to pull fake data from an API
+- unsplash.com/developers
+
+### Axios vs Fetch
+
+- Axios
+  - 3rd party package
+  - Very easily installed using npm
+  - A lot of the small details are taken care of for you
+- Fetch
+  - Function built into modern browsers
+  - No installation needed. Final application size is smaller
+  - Far more basic than axios
+
 ### Misc Notes
 
 - No parentheses when we pass a callback function to an event handler like "onChange"
 - Naming convention for event callbacks
   - (on), name of the element (Input), event that we are watching for (Change)
   - onInputChange
-- ## TypeError: Cannot read property 'state' of undefined
+- TypeError: Cannot read property 'state' of undefined
